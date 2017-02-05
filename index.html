@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="index.js"> </script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+  <body>
+    <h1 id="name" style="color:red">Astro Weight Calculator</h1>
+    <label for="myWeight">Your Weight</label>
+    <input type="number" id="myWeight"
+           style="background:lightblue">
+
+ <label for="selectPlanet">Select a planet</label>
+ <select id="selectPlanet"
+          style="background:lightgreen">
+
+      <option value="0">Sun</option>
+      <option value="1" selected>Mercury</option>
+      <option value="2">Venus</option>
+      <option value="3">Earth</option>
+			<option value="4">Moon</option>
+			<option value="5">Mars</option>
+			<option value="6">Jupiter</option>
+			<option value="7">Saturn</option>
+			<option value="8">Uranus</option>
+			<option value="9">Neptune</option>
+			<option value="10">Pluto</option>
+
+   </select>
+
+    <button class="button" id="SubmitButton"
+            onclick="Calculate()">Calculate</button>
+<p id="result" class="result"></p>
+<!--<script src="index.js"> </script>-->
+</body>
+</html>
